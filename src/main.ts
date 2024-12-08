@@ -31,7 +31,7 @@ client.once(Events.ClientReady, async (ctx) => {
   commandManager.registerCommands();
   commandManager.deployCommands();
   client.user?.setActivity("BLUD", { type: ActivityType.Listening });
-  setInterval(async () => {}, 1000);
+  setInterval(async () => announceNewHour, 1000);
 });
 
 client.on(Events.InteractionCreate, (interaction) => {
