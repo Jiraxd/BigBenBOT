@@ -1,0 +1,26 @@
+{
+  "name": "bigben",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/main.ts",
+  "scripts": {
+    "start": "ts-node src/main.ts",
+    "build": "tsc"
+  },
+  "keywords": [],
+  "author": "j1r4",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.4",
+    "mysql2": "^3.9.1",
+    "steamapi": "^2.5.0"
+  },
+  "devDependencies": {
+    "@types/express": "^4.17.21",
+    "@types/node": "^20.11.19",
+    "@types/steamapi": "^2.2.5",
+    "typescript": "^5.3.3"
+  }
+}
